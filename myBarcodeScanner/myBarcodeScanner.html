@@ -1,0 +1,21 @@
+<!--
+  @description       : 
+  @author            : SUDEER K
+  @group             : 
+  @last modified on  : 10-01-2022
+  @last modified by  : SUDEER K
+  Modifications Log
+  Ver   Date         Author     Modification
+  1.0   10-01-2022   SUDEER K   Initial Version
+-->
+<template>
+    <lightning-card icon-name="utility:scan" title="Barcode Scanner">
+        <div class="slds-var-p-horizontal_medium">
+            <lightning-button variant="netural" label="Click Here to Scan" title="Click Here to Scan" 
+            onclick={handleClick}></lightning-button>
+            <div class="slds-var-p-vertical_large">
+                <span>{scannedResult}</span>
+            </div>
+        </div>
+    </lightning-card>
+</template>
